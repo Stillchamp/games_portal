@@ -51,7 +51,7 @@ const categoryChartData = {
   datasets: [
     {
       label: 'Beneficiaries',
-      data: [337, 389, 75, 293],
+      data: [224, 389, 75, 175],
       backgroundColor: '#4A90E2',
       borderRadius: 4,
     },
@@ -73,7 +73,7 @@ const lgaChartData = {
   datasets: [
     {
       label: 'Beneficiaries',
-      data: [30, 40, 20, 10],
+      data: [143, 223, 206, 380],
       backgroundColor: '#4A90E2',
       borderRadius: 6,
     },
