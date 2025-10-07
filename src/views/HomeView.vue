@@ -17,7 +17,7 @@ const metricCards = [
   {
     id: 'total-funding',
     label: 'Total Funding',
-    value: 'N252.5',
+    value: 'N252.5M',
     icon: 'funding',
     trendValue: '30%',
   },
@@ -69,7 +69,7 @@ const genderChartData = {
 }
 
 const lgaChartData = {
-  labels: ['Ikenne', 'Sagam', 'Remo', 'Ijebu-Ode', 'Odogbolu', 'Others'],
+  labels: ['Ikenne', 'Sagam', 'Remo', 'Ijebu-Ode', //'Odogbolu', 'Others'],
   datasets: [
     {
       label: 'Beneficiaries',
