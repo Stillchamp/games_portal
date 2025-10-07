@@ -562,12 +562,12 @@ const donutOptions = {
             <div class="flex items-center gap-3">
               <span class="inline-block h-4 w-4 rounded-full bg-[#1D4ED8]"></span>
               <span class="font-medium text-slate-700">Merit-Based</span>
-              <span class="ml-auto font-semibold text-slate-900">37%</span>
+              <span class="ml-auto font-semibold text-slate-900">62%</span>
             </div>
             <div class="flex items-center gap-3">
               <span class="inline-block h-4 w-4 rounded-full bg-[#34D399]"></span>
               <span class="font-medium text-slate-700">Indigent/Need-Based</span>
-              <span class="ml-auto font-semibold text-slate-900">37%</span>
+              <span class="ml-auto font-semibold text-slate-900">38%</span>
             </div>
           </div>
         </div>
