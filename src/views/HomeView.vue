@@ -10,23 +10,23 @@ const metricCards = [
   {
     id: 'total-beneficiaries',
     label: 'Total Beneficiaries',
-    value: '1034',
+    value: '932',
     icon: 'beneficiaries',
-    trendValue: '25%',
+    
   },
   {
     id: 'total-funding',
     label: 'Total Funding',
     value: 'N252M+',
     icon: 'funding',
-    trendValue: '30%',
+    trendValue: '32%',
   },
   {
     id: 'active-beneficiaries',
     label: 'Active Beneficiaries',
     value: '866',
     icon: 'active',
-    trendValue: '30%',
+    trendValue: '25% to 2024',
   },
   {
     id: 'graduated-beneficiaries',
