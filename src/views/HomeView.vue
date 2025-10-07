@@ -545,7 +545,7 @@ const donutOptions = {
         </div>
       </div>
       <div class="rounded-3xl bg-white p-6 shadow-card">
-        <h2 class="mb-6 text-xl font-semibold text-slate-800">Top 5 L.G.A’s Beneficiaries</h2>
+        <h2 class="mb-6 text-xl font-semibold text-slate-800"> Distribution of Beneficiaries by L.G.A </h2>
         <div class="h-[320px]">
           <BarChart :chartData="lgaChartData" :chartOptions="horizontalBarOptions" />
         </div>
