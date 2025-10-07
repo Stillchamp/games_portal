@@ -534,12 +534,12 @@ const donutOptions = {
             <div class="flex items-center gap-3">
               <span class="inline-block h-4 w-4 rounded-full bg-[#FF6B6B]"></span>
               <span class="font-medium text-slate-700">Male</span>
-              <span class="ml-auto font-semibold text-slate-900">37%</span>
+              <span class="ml-auto font-semibold text-slate-900">39%</span>
             </div>
             <div class="flex items-center gap-3">
               <span class="inline-block h-4 w-4 rounded-full bg-[#34D399]"></span>
               <span class="font-medium text-slate-700">Female</span>
-              <span class="ml-auto font-semibold text-slate-900">37%</span>
+              <span class="ml-auto font-semibold text-slate-900">61%</span>
             </div>
           </div>
         </div>
