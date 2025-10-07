@@ -680,7 +680,7 @@ const donutOptions = {
       </div>
       <div class="rounded-3xl bg-white p-6 shadow-card">
         <h2 class="mb-6 text-xl font-semibold text-slate-800">
-          Average Performance <span class="font-normal">(Primary, Secondary &amp; Technical)</span>
+          Average Performance <span class="font-normal">(PRY, SEC &amp; TECH)</span>
         </h2>
         <div class="h-[320px]">
           <BarChart
@@ -692,7 +692,7 @@ const donutOptions = {
       <div class="rounded-3xl bg-white p-6 shadow-card">
         <h2 class="mb-4 text-xl font-semibold text-slate-800">
           Performance Distribution
-          <span class="font-normal">(Primary, Secondary &amp; Technical)</span>
+          <span class="font-normal">(PRY, SEC &amp; TECH)</span>
         </h2>
         <div class="flex flex-col items-center gap-6">
           <div class="flex items-center justify-center">
