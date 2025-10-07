@@ -248,16 +248,16 @@ const tertiaryPerformanceDistributionChartData = {
   labels: ['Excellent (< 4.5)', 'V.Good (3.5 - 4.4)', 'Emerging (> 3.5)'],
   datasets: [
     {
-      data: [35, 57, 8],
+      data: [35, 95, 45],
       backgroundColor: ['#1D4ED8', '#F87171', '#34D399'],
     },
   ],
 }
 
 const tertiaryPerformanceDistributionLegend = [
-  { label: 'Excellent (< 4.5)', value: '35%', color: '#1D4ED8' },
-  { label: 'Average (3.5 - 4.4)', value: '57%', color: '#F87171' },
-  { label: 'Need Support (> 3.5)', value: '8%', color: '#34D399' },
+  { label: 'Excellent (< 4.5)', value: '20%', color: '#1D4ED8' },
+  { label: 'V.Good (3.5 - 4.4)', value: '54%', color: '#F87171' },
+  { label: 'Emerging (> 3.5)', value: '26%', color: '#34D399' },
 ]
 
 viewOptions.value = [
