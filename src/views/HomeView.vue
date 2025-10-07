@@ -26,7 +26,7 @@ const metricCards = [
     label: 'Active Beneficiaries',
     value: '866',
     icon: 'active',
-    trendValue: '25%' to 2024,
+    trendValue: '25%',
   },
   {
     id: 'graduated-beneficiaries',
