@@ -17,7 +17,7 @@ const metricCards = [
   {
     id: 'total-funding',
     label: 'Total Funding',
-    value: 'N252.5M +',
+    value: 'N252M+',
     icon: 'funding',
     trendValue: '30%',
   },
