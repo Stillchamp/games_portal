@@ -106,17 +106,17 @@ const fundingCategoryChartData = {
   labels: ['Tertiary', 'Secondary', 'Primary', 'Technical Colleges'],
   datasets: [
     {
-      data: [14, 34, 4, 48],
+      data: [121000000, 85900000, 34300000, 11250000],
       backgroundColor: ['#1D4ED8', '#FF6B6B', '#34D399', '#475569'],
     },
   ],
 }
 
 const fundingCategoryBreakdown = [
-  { label: 'Tertiary', value: '41%', color: '#1D4ED8' },
-  { label: 'Secondary', value: '37%', color: '#FF6B6B' },
-  { label: 'Primary', value: '21%', color: '#34D399' },
-  { label: 'Technical Colleges', value: '11%', color: '#475569' },
+  { label: 'Tertiary', value: '48%', color: '#1D4ED8' },
+  { label: 'Secondary', value: '34%', color: '#FF6B6B' },
+  { label: 'Primary', value: '14%', color: '#34D399' },
+  { label: 'Technical Colleges', value: '4%', color: '#475569' },
 ]
 
 const primarySecondaryPerformanceChartData = {
