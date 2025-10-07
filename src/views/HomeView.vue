@@ -30,8 +30,8 @@ const metricCards = [
   },
   {
     id: 'graduated-beneficiaries',
-    label: 'Graduated Beneficiaries',
-    value: '66',
+    label: 'Funding Years',
+    value: '03',
     icon: 'graduated',
   },
 ]
