@@ -72,12 +72,18 @@ const router = createRouter({
 
 export default router
 
-// Navigation guard to protect routes
+// Strict presentation guard: force everyone to the dashboard (no routing away)
+// Public pages that should remain accessible (login/flows).
+const publicPages = ['login', 'forgot-password', 'verification', 'reset-password', 'password-changed']
+
 router.beforeEach((to, from, next) => {
-  const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
-const publicPages = ['login', 'forgot-password', 'verification', 'reset-password', 'password-changed'];  if (!publicPages.includes(to.name) && !isAuthenticated) {
-    next({ name: 'login' });
-  } else {
-    next();
+  // If navigating to a public page, allow it (login flows).
+  if (publicPages.includes(to.name)) return next()
+
+  // Otherwise force dashboard only
+  if (to.path !== '/dashboard' && to.path !== '/') {
+    return next('/dashboard')
   }
-});
+
+  return next()
+})

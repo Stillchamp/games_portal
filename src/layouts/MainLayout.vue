@@ -1,43 +1,6 @@
 <template>
   <div class="min-h-screen bg-slate-25 flex overflow-auto">
-    <aside class="w-72 bg-white shadow-card rounded-r-3xl py-8 px-6 flex flex-col justify-between">
-      <div>
-        <nav class="space-y-2">
-          <SidebarLink
-            v-for="item in sidebarItems"
-            :key="item.label"
-            :icon="item.icon"
-            :label="item.label"
-            :to="item.to"
-            :disabled="item.disabled"
-            @click="item.label === 'Administrative' ? toggleAdmin() : null"
-          />
-          <transition name="fade">
-            <div v-if="showAdmin" class="ml-4 mt-2">
-              <SidebarLink
-                v-for="sub in adminItems"
-                :key="sub.label"
-                :icon="sub.icon"
-                :label="sub.label"
-                :to="sub.to"
-                :disabled="sub.disabled"
-              />
-            </div>
-          </transition>
-        </nav>
-      </div>
-
-      <button
-        type="button"
-        class="inline-flex items-center gap-3 rounded-xl bg-accent py-3 px-4 text-white font-medium hover:bg-[#f65758] transition"
-      >
-        <span
-          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-lg"
-          >⇦</span
-        >
-        Log Out
-      </button>
-    </aside>
+    <!-- Sidebar removed for presentation/demo builds; main content fills the layout -->
 
     <div class="flex-1 px-10 pb-10">
       <header
@@ -182,7 +145,6 @@
 </template>
 
 <script setup>
-import SidebarLink from '@/components/layout/SidebarLink.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 
@@ -218,22 +180,7 @@ const userProfile = ref({
   phone: '+234 123 456 7890'
 })
 
-const sidebarItems = ref([
-  { icon: 'dashboard', label: 'Dashboard', to: '/dashboard', disabled: false },
-  { icon: 'users', label: 'Beneficiaries', to: '/beneficiaries', disabled: false },
-  { icon: 'settings', label: 'Setup', to: '/setup', disabled: false },
-  { icon: 'chat', label: 'Communication', to: '/communication', disabled: false },
-  { icon: 'award', label: 'Administrative', to: '#', disabled: false },
-])
-const adminItems = ref([
-  { icon: 'award', label: 'User', to: '/administrative/user', disabled: false },
-  { icon: 'award', label: 'Roles', to: '/administrative/roles', disabled: false },
-])
-const showAdmin = ref(false)
-
-function toggleAdmin() {
-  showAdmin.value = !showAdmin.value
-}
+// Sidebar removed — no sidebar state required
 
 function toggleProfileDropdown() {
   showProfileDropdown.value = !showProfileDropdown.value
