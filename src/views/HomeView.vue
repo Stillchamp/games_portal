@@ -51,7 +51,7 @@ const categoryChartData = {
   datasets: [
     {
       label: 'Beneficiaries',
-      data: [220, 380, 70, 210],
+      data: [337, 389, 75, 293],
       backgroundColor: '#4A90E2',
       borderRadius: 4,
     },
@@ -62,7 +62,7 @@ const genderChartData = {
   labels: ['Male', 'Female'],
   datasets: [
     {
-      data: [37, 37],
+      data: [39, 61],
       backgroundColor: ['#FF6B6B', '#34D399'],
     },
   ],
