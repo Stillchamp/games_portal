@@ -232,7 +232,7 @@ const primarySecondaryPerformanceDistributionChartData = {
   labels: ['Excellent (< 70%)', 'Good (50 - 70%)', 'Developing (> 50%)'],
   datasets: [
     {
-      data: [32, 46, 22],
+      data: [145, 205, 98],
       backgroundColor: ['#34D399', '#FACC15', '#F87171'],
     },
   ],
