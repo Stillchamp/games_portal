@@ -30,7 +30,7 @@ const metricCards = [
   },
   {
     id: 'graduated-beneficiaries',
-    label: 'Funding Years',
+    label: 'Funding Year',
     value: '03',
     icon: 'graduated',
   },
@@ -62,7 +62,7 @@ const genderChartData = {
   labels: ['Male', 'Female'],
   datasets: [
     {
-      data: [39, 61],
+      data: [338, 528],
       backgroundColor: ['#FF6B6B', '#34D399'],
     },
   ],
