@@ -69,11 +69,11 @@ const genderChartData = {
 }
 
 const lgaChartData = {
-  labels: ['Ikenne', 'Sagam', 'Remo', 'Others'],
+  labels: ['Ikenne', 'Sagam', 'Remo'],
   datasets: [
     {
       label: 'Beneficiaries',
-      data: [143, 223, 206, 380],
+      data: [205, 429, 298,],
       backgroundColor: '#4A90E2',
       borderRadius: 6,
     },
