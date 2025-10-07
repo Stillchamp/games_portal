@@ -229,10 +229,10 @@ const tertiaryPerformanceOptions = {
 }
 
 const primarySecondaryPerformanceDistributionChartData = {
-  labels: ['Excellent (< 70%)', 'Average (50 - 70%)', 'Need Support (> 50%)'],
+  labels: ['Excellent (< 70%)', 'Good (50 - 70%)', 'Developing (> 50%)'],
   datasets: [
     {
-      data: [45, 40, 15],
+      data: [32, 46, 22],
       backgroundColor: ['#34D399', '#FACC15', '#F87171'],
     },
   ],
@@ -245,7 +245,7 @@ const primarySecondaryPerformanceDistributionLegend = [
 ]
 
 const tertiaryPerformanceDistributionChartData = {
-  labels: ['Excellent (< 4.5)', 'Average (3.5 - 4.4)', 'Need Support (> 3.5)'],
+  labels: ['Excellent (< 4.5)', 'V.Good (3.5 - 4.4)', 'Emerging (> 3.5)'],
   datasets: [
     {
       data: [35, 57, 8],
