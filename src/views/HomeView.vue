@@ -73,7 +73,7 @@ const lgaChartData = {
   datasets: [
     {
       label: 'Beneficiaries',
-      data: [30%, 40%, 20%, 10%],
+      data: [30, 40, 20, 10],
       backgroundColor: '#4A90E2',
       borderRadius: 6,
     },
@@ -84,7 +84,7 @@ const awardChartData = {
   labels: ['Merit-Based', 'Indigent/Need-Based'],
   datasets: [
     {
-      data: [37, 37],
+      data: [62, 38],
       backgroundColor: ['#1D4ED8', '#34D399'],
     },
   ],
@@ -95,7 +95,7 @@ const fundingTrendChartData = {
   datasets: [
     {
       label: 'Funding',
-      data: [75000000, 90000000, 105000000],
+      data: [65500000, 79850000, 105100000],
       backgroundColor: '#1D4ED8',
       borderRadius: 6,
     },
@@ -106,7 +106,7 @@ const fundingCategoryChartData = {
   labels: ['Tertiary', 'Secondary', 'Primary', 'Technical Colleges'],
   datasets: [
     {
-      data: [41, 37, 21, 11],
+      data: [14, 34, 4, 48],
       backgroundColor: ['#1D4ED8', '#FF6B6B', '#34D399', '#475569'],
     },
   ],
