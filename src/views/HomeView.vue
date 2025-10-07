@@ -124,13 +124,13 @@ const primarySecondaryPerformanceChartData = {
   datasets: [
     {
       label: 'Primary',
-      data: [58, 64],
+      data: [65, 72],
       backgroundColor: '#3B82F6',
       borderRadius: 6,
     },
     {
       label: 'Secondary',
-      data: [72, 80],
+      data: [60, 71],
       backgroundColor: '#10B981',
       borderRadius: 6,
     },
@@ -185,7 +185,7 @@ const tertiaryPerformanceChartData = {
   datasets: [
     {
       label: 'Average GPA',
-      data: [3, 4.2],
+      data: [3.3, 3.9],
       backgroundColor: '#1D4ED8',
       borderRadius: 6,
     },
