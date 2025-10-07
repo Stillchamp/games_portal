@@ -240,8 +240,8 @@ const primarySecondaryPerformanceDistributionChartData = {
 
 const primarySecondaryPerformanceDistributionLegend = [
   { label: 'Excellent (< 70%)', value: '36%', color: '#34D399' },
-  { label: 'Average (50 - 70%)', value: '45%', color: '#FACC15' },
-  { label: 'Need Support (> 50%)', value: '19%', color: '#F87171' },
+  { label: 'Good (50 - 70%)', value: '45%', color: '#FACC15' },
+  { label: 'Developing (> 50%)', value: '19%', color: '#F87171' },
 ]
 
 const tertiaryPerformanceDistributionChartData = {
